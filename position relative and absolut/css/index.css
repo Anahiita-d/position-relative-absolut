@@ -1,0 +1,55 @@
+
+@font-face {
+    font-family: Byekan;
+    src: url('../fonts/Byekan.ttf') format('truetupe'),
+         url('../fonts/Byekan.woff') format('woff');
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(107, 137, 237);
+    font-family: 'Byekan';
+}
+
+.container{
+    width: 600px;
+    height: 360px;
+    margin: 100px auto;
+    box-shadow: 0 0 40px rgb(40, 40, 40);
+    border-radius: 10px 25px;
+    position: relative;
+
+}
+.card{
+     width: 220px;
+    height: 360px;
+    position: absolute;
+    right: 30px;
+    top: -30px;
+    box-shadow: 0 0 40px rgb(40, 40, 40);
+    border-radius: 10px 25px;
+    overflow: hidden;
+}
+.card img{
+    width: 100%;
+    height: 280px;
+}
+.card p{
+    padding-right: 15px;
+    margin: 5px;
+    font-size: 14px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.bio{
+    width: 300px;
+    height: 300px;
+    font-size: 14px;
+    position: absolute;
+    left: 30px;
+    top: 30px;
+    text-align: justify;
+ }
